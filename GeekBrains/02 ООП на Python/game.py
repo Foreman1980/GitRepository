@@ -74,6 +74,8 @@ class Game:
         for i in range(self.hamstersCount):
             self.hamsters.append(Hamster(f'{i+1}', self.getFullMap()))
 
+    gameOn = True
+
     def start(self):
         self.renderMap()
         while self.gameOn:
