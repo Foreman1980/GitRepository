@@ -2,3 +2,6 @@
 /.idea/
 /__pycache__/
 /На проверку/
+*.txt
+*.json
+*.pickle
